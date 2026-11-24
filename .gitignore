@@ -1,0 +1,27 @@
+# --- Secrets / machine-specific config (never commit) ---
+# Firebase config for the desktop app (can live in desktop/ or desktop/dist/);
+# firebase-config.example.json is the template and stays tracked.
+**/firebase-config.json
+android/app/google-services.json
+android/local.properties
+
+# --- Build output and caches ---
+**/.gradle/
+**/.kotlin/
+**/build/
+desktop/dist/*.jar
+!desktop/dist/TackyMemos.jar
+firebase/.firebase/
+
+# --- Editors / OS ---
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+# Windows shortcuts hold absolute paths to this PC.
+*.lnk
+*.log
