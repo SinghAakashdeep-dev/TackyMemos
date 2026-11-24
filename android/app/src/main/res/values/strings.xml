@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tacky Memos</string>
+    <string name="widget_desc">A memo or checklist, synced with your laptop</string>
+</resources>
